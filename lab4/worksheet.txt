@@ -1,0 +1,71 @@
+1. What is the address (in hexadecimal) of the first and last instruction in the loop?
+	
+	
+
+2. Is the loop of the "while(condition)-do", "repeat-until(condition)", or "do-while(condition)" form?
+
+
+
+3. Do the values of 'x' increase or decrease?
+
+
+
+4. In the form of "b *ADDRESS", what is the command to set a breakpoint on the line where you can observe the new value of 'y' after it is calcualted? Actually use "print $r0" to check and make sure the register you think is 'y' has been updated and has the correct value.
+
+
+
+5. What two gdb commands can you enter so that at each and every step, gdb will print both the decimal and hexadecimal form of the value 'y'?
+
+
+
+6. The loop as written only calculates the value of 'y' for the values of 'x' between 0 and 9. It should calculate the value of 'y' for all values of 'x' between 0 and 10. Why does the loop stop at 9 and what change would fix it?
+
+
+
+7. Correct the code in "loop.s", assemble and step through the program again in gdb. Fill in the following table:
+
+register        register                register
+   x               y                       y
+(counter)       (decimal)               (hexadecimal)
+
+   0            __________              __________
+
+   1            __________              __________
+
+   2            __________              __________
+
+   3            __________              __________
+
+   4            __________              __________
+
+   5            __________              __________
+
+   6            __________              __________
+
+   7            __________              __________
+
+   8            __________              __________
+
+   9            __________              __________
+
+  10            __________              __________
+  
+
+=====================
+ Octal Dump Questions
+=====================
+
+8. What type of data is in the source file?
+
+
+
+9. What type of data is in the executable?
+
+
+
+BONUS:
+
+10. Use the directory list command (ls -l) to determine the size of your source file (loop.s) and the executable (loop). How do the files compare in size? Which is bigger? In order to get any credit you must also explain why it is bigger.
+
+
+
