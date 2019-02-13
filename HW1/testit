@@ -1,0 +1,3 @@
+sed ' s/word(N, 1101)/word(N, 111)/ ' prog1.m > newp.m
+./assemble.sh newp.m
+./acc
