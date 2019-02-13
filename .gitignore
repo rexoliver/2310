@@ -1,0 +1,24 @@
+# This is the .gitignore file.
+# It makes sure that we ignore files that we do not want to track on my
+# repository, which includes .o files, .a files, and ~ files
+# 
+# Ignore all .a files
+*.a
+
+# Ignore all .out files
+*.out
+
+# Ignore all ~ files from vim
+*~
+
+#ignore all files in any directory named out
+out/
+
+#ignore all files in any directory named .idea
+.idea/
+
+#ignore all .class files
+*.class
+
+#ignore all .iml files
+*.iml

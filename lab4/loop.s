@@ -38,7 +38,7 @@ loop:
 
 	cmp  r5, #10          @ perform r5 - 10, result is used by blt
 
-	blt  loop
+	ble  loop
 
 	mov  r3, #0
 	mov  r0, r3
