@@ -6,26 +6,32 @@
 
 
 
+  define(N,0)
+  define(count,1)
+  define(two,2)
+  define(fin,3)
+  define(ten,4)
+  define(nine,5)
+  define(eight,6)
+  define(n_add_9,7)
+  define(n_add_8,8)
 
+define(start,9)
 
+define(loop,9) 
 
-
-
-       define(sum,0)
-       define(i,1)       
-       define(zero,2)   
-       define(one,3)
-       define(ten,4)
-
-define(start,5)
-
-                            
-define(loop,13)
-
-                     
-                     
-                     
-       
-define(done,31)
-       
+        
+        
+    
               
+
+      
+define(skip_to,37) 
+
+      
+          
+define(done,53)
+
+    
+
+

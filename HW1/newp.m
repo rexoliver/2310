@@ -5,7 +5,7 @@ comment('Due: Feb 15, 2019 at 11:59pm')
 
 comment('Description: converts an input from Binary to decimal')
 
-  word(N, 1101)
+  word(N, 10110101)
   word(count, 1)
   word(two, 2)
   word(fin, 0)

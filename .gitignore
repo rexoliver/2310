@@ -11,6 +11,9 @@
 # Ignore all ~ files from vim
 *~
 
+# Ignore all files with a # from emacs
+*#
+
 #ignore all files in any directory named out
 out/
 
