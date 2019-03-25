@@ -27,6 +27,11 @@ main:
     push {lr}             @ save the link register so we can jump back to 
 	
     @ MAIN CODE GOES HERE
+    
+    mov r0, #10
+    bl fact
+    bl fmt_str    
+    
 
     pop  {pc}             @ pop the top of the stack
 

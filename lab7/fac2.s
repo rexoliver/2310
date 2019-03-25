@@ -29,7 +29,9 @@ main:
 	push  {lr}
 
 	@ MAIN CODE GOES HERE
-
+        
+    bl here    
+    bl fmt_str
 	pop  {pc}
 
 	.size    main, .-main

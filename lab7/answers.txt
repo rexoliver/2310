@@ -6,27 +6,33 @@ r1	lr
 ---	-------
 -	39
 10	12
-
-
-
-
-
+90  12
+720 12
+5040 12
+30240 12
+151200 12
+604800 12
+1814400 12
+3628800 12
 
 
 2. In "fac.s", the multiply instruction on line 12 comes after a "bl" which is a branch that will always be taken. How does line 12 get executed if the "bl" is always taken?
 
 HINT: Review what "bl" does at http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0489c/Cihfddaf.html (scroll down to "Operations")
 
-
+It is a recursive function, even though it always branches, once each done
+function is completed, the mul function on line 12 is completed anyway. 
 
 
 3. Why doesn't the code in "fac2.s" save any registers on the stack? What is it doing instead?
 
-
-
+It does not save any registers on the stack because instead it is passing the
+values directly into the next function instead.  
 
 4. Identify which program calculates the factorial recursively and which is iterative.
 
+fac.s is recursive
+fac2.s is iterative
 
 NOTE: The comments for "main:" in "fac.s" are already done for you and you do not have to comment "main:" in "fac2.s".
 
