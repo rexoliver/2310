@@ -1,0 +1,30 @@
+1.(10 pts) In the function main on line 33, a mov instruction copies the stack pointer address into r0.
+
+	a.What is that the address of? (Hint: Look at the C code)
+        It is the address of the next dot struct that will be made	    
+    b.What is it used for afterwards in init and main?
+        it is used to store the next dot struct into        
+2.(10 pts) Which two lines in the C program (put the full line of code, not line numbers) correspond to the following two lines of function init in the assembly version?
+
+	str r1, [sp]
+	str r2, [sp, #4]
+
+    local.x = x_arg;
+    local.y = y_arg;
+
+3.(10 pts) In the function zero, what value(s) does the program store at addresses [sp] and [sp, #4] (Lines 19 and 20)?
+
+    0 and 0     
+    
+4.(10 pts) Which two lines in the C program (put the full line of code, not line numbers) correspond to the following two lines of function zero in the assembly version?
+
+	str r3, [sp]
+	str r3, [sp, #4]
+
+    local.x = 0;
+    local.y = 0;    
+    
+5.(10 pts) Based on the ARM code (not the C code), in the function zero, what does it return? Remember, there is no specific return <variable> command in ARM. The return value is always whatever is stored in the register designated to hold the return value (you should know which one this is). Don't answer the question with the register name, actually describe what the value is and what it represents.
+
+    It should turn register r0 to 0, allowing the register to later be a
+parameter. 
